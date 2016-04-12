@@ -1,3 +1,3 @@
-var hrefFB = window.location.href;
+var hrefFB = $(location).attr('href');
 
 console.log(hrefFB);
