@@ -1,6 +1,6 @@
 var hrefFB = $(location).attr('href');
 
-console.log(hrefFB);
+//console.log(hrefFB);
 
 var isFacebook = "facebook.com";
 
