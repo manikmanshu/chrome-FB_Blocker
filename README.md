@@ -2,7 +2,7 @@
 
 ## Chrome Extension
 
-* Instructions to Load Extension in Chrome
+### Instructions to Load Extension in Chrome
 
 - Clone this repository in your device
 
@@ -13,3 +13,7 @@
 - Load unpacked extension
 
 - Select this clone repository
+
+### Settings
+
+- Use extension options to add/remove websites to block

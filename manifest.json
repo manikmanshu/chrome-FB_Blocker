@@ -1,6 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "My facebook blocker",
+  "name": "Site Blocker",
+  "description": "Block website to stay focused",
   "version": "0.1",
   "content_scripts": [
     {
@@ -11,8 +12,15 @@
       "run_at": "document_start"
     }
   ],
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "options/options.html",
   "browser_action": {
     "default_icon": "icon.png"
+  },
+  "icons": {
+    "48": "icon.png"
   }
 
 }
